@@ -1,0 +1,104 @@
+<div ng-controller="myCtrl">
+    <h3 style="margin-top: 30px; margin-left: 44%; ">Phim đang chiếu</h3>
+    <div class="row row-cols-1 row-cols-md-2   g-4" style="margin: 0 auto; width: 1300px;">
+        <button type="button" class="btn btn-outline-secondary">{{now}}</button>  
+        <button type="button" class="btn btn-outline-secondary">{{tomorow}}</button>  
+    </div>
+    <div class="row" >
+        <div class="row row-cols-1 row-cols-md-2   g-4" style="margin: 0 auto; width: 1300px;">
+            <div class="col"  ng-repeat = "u in dangchieu">  
+                <div class="card"  style="border: 0px;">
+                <button ng-click = "inThongTin1($index)" class="btn btn-sm btn-outline-secondary"  data-bs-toggle="modal" data-bs-target="#thongtin" style="border: 0px;">
+                    <div class="card mb-3" >
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                            <img src="{{u.img}}" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body" style="text-align: left;" >
+                                    <p style="color: rgb(70, 68, 102); margin: 0px; font-size: 13px;">{{u.Theloai}} 
+                                    {{u.ThoiLuong}}</p>
+                                    <h5 class="card-title">{{u.Ten}}</h5>
+                                    <p>Xuất xứ: {{u.Xuatxu}}</p>
+                                    <p>Khởi chiếu: {{u.Khoichieu}}</p>
+                                    <p style="color: red;">Khuyến cáo: {{u.Khuyencao}}</p>
+                                    <input type="button" style="margin-right: 10px; margin-bottom: 10px;" ng-click = "Thanhtoan($index)" data-bs-toggle="modal" data-bs-target="#datve"  class="btn btn-outline-light" ng-repeat="g in u.lichchieu[0].gio" value="{{g}}">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <div class="modal fade" id="datve" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">Đặt vé</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>{{ titledatve }}</h2>
+                            <form class="panel-body" name="frmBonus">
+                                <div class="form-group">
+                                    <label>Số lượng</label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" min="0"  name="txtdiem" > 
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Số điện thoại</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="number" maxlength="10" min="0" minlength="8" name="txtSdt" required ng-model="Sdt" pattern="[0][1,9,8,7]\d\d\d\d\d\d\d\d">
+                                    </div>
+                                    <span ng-show = "frmBonus.txtSoxe.$invalid">
+                                        Sai Số điện thoại
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Thanh toán</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Modal -->
+                    <div class="modal fade" id="thongtin" tabindex="-1" aria-labelledby="tt1" aria-hidden="true">
+                        <div class="modal-dialog" style="width: 1000px; max-width: 1000px;" >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="tt1">{{u.Ten}}</h1>
+                                <button  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                    <div class="modal-body">
+                                        <div class="card mb-4" style="max-width: 1000px;">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                <img src="{{Tt.img}}" style="width: 400px;" class="img-fluid rounded-start" alt="...">
+                                                </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                        <h5 class="card-title">{{Tt.Ten}}</h5>
+                                                        <p class="card-text">Hành động {{Tt.Theloai}}</p>
+                                                        <p class="card-text">{{Tt.ThoiLuong}}</p>x
+                                                        <p class="card-text">Đạo diễn: {{Tt.Daodien}}</p>
+                                                        <p class="card-text">Diễn viên: {{Tt.Dienvien}}</p>
+                                                        <p class="card-text">{{Tt.Mota}}</p>
+                                                        <p class="card-text"><small class="text-body-secondary">Khởi chiếu: {{Tt.Khoichieu}}</small></p>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Đặt vé</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

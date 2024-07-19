@@ -1,0 +1,133 @@
+<article ng-controller="myCtrl">
+  <div class="row" style="width: 1200px; margin: 0 auto;">
+    <div class="container" >
+        <div class="row"> 
+            <div class="col-md-10">
+            <h3 style="margin-top: 30px; ">Phim đang chiếu</h3>
+                <div class="row" >
+                    <div class="row row-cols-1 row-cols-md-4 g-4" style="margin: 0px;">
+                        <div class="col" ng-repeat = "u in dangchieu">
+                            <div class="card" style="border: 0px;">
+                            <button ng-click = "inThongTin1($index)" class="btn btn-sm btn-outline-secondary"  data-bs-toggle="modal" data-bs-target="#thongtin" style="border: 0px;">
+                            <img src="{{u.img}}" style="border-radius: 5px;" class="card-img-top" alt="...">
+                                <div class="card-body" style="text-align: left; padding: 0px;">
+                                    <p class="card-text" >
+                                    <p style="color: rgb(70, 68, 102); margin: 0px; font-size: 13px;">{{u.Theloai}} 
+                                    {{u.Khoichieu}}</p>
+                                    <h5 style="font-size: 15px;">{{u.Ten}}</h5>
+                                    </p>
+                                </div>
+                            </button>
+                            <!-- Modal -->
+                                <div class="modal fade" id="thongtin" tabindex="-1" aria-labelledby="tt1" aria-hidden="true">
+                                    <div class="modal-dialog" style="width: 1000px; max-width: 1000px;" >
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="tt1">{{u.Ten}}</h1>
+                                            <button  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                <div class="modal-body">
+                                                    <div class="card mb-4" style="max-width: 1000px;">
+                                                        <div class="row g-0">
+                                                            <div class="col-md-4">
+                                                            <img src="{{Tt.img}}" style="width: 400px;" class="img-fluid rounded-start" alt="...">
+                                                            </div>
+                                                                <div class="col-md-8">
+                                                                    <div class="card-body">
+                                                                    <h5 class="card-title">{{Tt.Ten}}</h5>
+                                                                    <p class="card-text">Hành động {{Tt.Theloai}}</p>
+                                                                    <p class="card-text">{{Tt.ThoiLuong}}</p>
+                                                                    <p class="card-text">Đạo diễn: {{Tt.Daodien}}</p>
+                                                                    <p class="card-text">Diễn viên: {{Tt.Dienvien}}</p>
+                                                                    <p class="card-text">{{Tt.Mota}}</p>
+                                                                    <p class="card-text"><small class="text-body-secondary">Khởi chiếu: {{Tt.Khoichieu}}</small></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Đặt vé</button>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              
+          <hr>
+          <h3 style="margin-top: 30px; ">Phim sắp chiếu</h3>
+          <div class="row" >
+              <div class="row row-cols-1 row-cols-md-4 g-4" style="margin: 0px;">
+                  <div class="col" ng-repeat = "u in sapchieu">
+                      <div class="card" style="border: 0px;">
+                      <button  class="btn btn-sm btn-outline-secondary" ng-click = "inThongTin2($index)"  data-bs-toggle="modal" data-bs-target="#thongtin2" style="border: 0px;">
+                      <img src="{{u.img}}" style="border-radius: 5px;" class="card-img-top" alt="...">
+                          <div class="card-body" style="text-align: left; padding: 0px;">
+                          <p class="card-text" >
+                              <p style="color: rgb(70, 68, 102); margin: 0px; font-size: 13px;">{{u.Theloai}} 
+                              {{u.Khoichieu}}</p>
+                              <h5 style="font-size: 15px;">{{u.Ten}}</h5>
+                          </p>
+                          </div>
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="thongtin2" tabindex="-1" aria-labelledby="ttin2" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" style="width: 1000px; max-width: 1000px;" >
+                              <div class="modal-content" >
+                                  <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="ttin2">{{Tt.Ten}}</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <div class="card mb-4" style="max-width: 1000px;">
+                                          <div class="row g-0">
+                                              <div class="col-md-4">
+                                              <img src="{{Tt.img}}" style="width: 400px;" class="img-fluid rounded-start" alt="...">
+                                              </div>
+                                              <div class="col-md-8">
+                                                  <div class="card-body">
+                                                  <h5 class="card-title">{{Tt.Ten}}</h5>
+                                                  <p class="card-text">Hành động {{Tt.Theloai}}</p>
+                                                  <p class="card-text">{{Tt.ThoiLuong}}</p>
+                                                  <p class="card-text">Đạo diễn: {{Tt.Daodien}}</p>
+                                                  <p class="card-text">Diễn viên: {{Tt.Dienvien}}</p>
+                                                  <p class="card-text">{{Tt.Mota}}</p>
+                                                  <p class="card-text"><small class="text-body-secondary">Khởi chiếu: {{Tt.Khoichieu}}</small></p>
+                                                  <p>{{Tt.Trailer}}</p>
+                                                  <video width="100%" height="400px" src="https://www.youtube.com/watch?v=Oz-MCOD8UNA" title="{{Tt.Ten}}" controls frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></video> 
+                                                  </div>
+                                              </div>  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Đặt vé</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>  
+          <div class="col-md-2">
+              <h3 style="margin-top: 30px; margin-bottom:34px;">Khuyến mại</h3>
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner" style="width: 250px; height: 120px;border-radius: 9px ">
+                      <div class="carousel-item active">
+                      <img src="img/slideside/0012851.webp" class="d-block w-100" style="object-fit: cover; object-position: 50% -200%;" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                      <img src="img/slideside/0017339.webp" class="d-block w-100"  alt="...">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </article>

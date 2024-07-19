@@ -1,0 +1,355 @@
+{
+  "dangchieu": [
+    {
+      "Id": 1,
+      "img": "img\\movie\\0017579_0.webp",
+      "Ten": "BIỆT ĐỘI SIÊU ANH HÙNG (Vở diễn)",
+      "Theloai": "Hài, Kịch, Thiếu nhi",
+      "Xuatxu": "Viet Nam",
+      "ThoiLuong": "70 phút",
+      "Daodien": "NSND Xuân Bắc",
+      "Dienvien": "NSND Xuân Bắc,NSND Tự Long Cùng các nghệ sỹ của Nhà hát Kịch Việt Nam",
+      "Khoichieu": "26/05/2024",
+      "Trailer": "",
+      "Mota": "“Thế giới đang yên bình, các bạn thiếu nhi đang ca hát chào đón mùa hè mới, bỗng nhiên thế lực đen tối xuất hiện hòng phá vỡ sự yên bình hạnh phúc. Lúc này, sự xuất hiện của những siêu anh hùng và các bạn nhỏ là những siêu chiến binh đã cùng nhau kịp thời giải cứu Trái Đất” \"BIỆT ĐỘI SIÊU ANH HÙNG\" – “Siêu phẩm” sân khấu vui “hết nấc” được lấy cảm hứng bởi loạt phim \"Avengers”. Hãy để con trẻ có trải nghiệm thưởng thức lành mạnh, giải trí đúng tuổi, rời xa màn hình điện thoại máy tính... và là cơ hội GẮN KẾT CẢ GIA ĐÌNH, giao lưu với các diễn viên, giúp các bạn nhỏ đến gần với nghệ thuật sân khấu với sự chuyển động liên tục của không gian, ánh sáng, âm thanh - yếu tố được khoa học chứng minh là giúp kích thích trí tuệ và sự sáng tạo.",
+      "Khuyencao": "T16 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 16 TUỔI TRỞ LÊN (16+).",
+      "lichchieu": [
+        {
+          "ngay": "10/6/2024",
+          "gio": [
+            "9:00",
+            "11:00",
+            "14:00",
+            "18:00",
+            "20:00",
+            "23:15"
+          ]
+        }
+      ],
+      "id": "04b3"
+    },
+    {
+      "Id": 2,
+      "img": "img\\movie\\0017591_0.webp",
+      "Ten": "LUYỆN NGẢI: CÔ HỒN DÃ QUỶ-T18",
+      "Theloai": "",
+      "Xuatxu": "Thái Lan",
+      "ThoiLuong": "103 phút",
+      "Daodien": "Mate Yimsomboon",
+      "Dienvien": "Punjan Prama, Supawadee Kitisopakul",
+      "Khoichieu": " 17/05/2024",
+      "Trailer": "https://www.youtube.com/embed/Oz-MCOD8UNA",
+      "Mota": "Trong một lần trấn yểm ác linh quỷ quyệt, thầy phù thuỷ Kaew đã chiến thắng. Nhưng ngạ quỷ nhanh chóng thoát khỏi phong ấn, ám lấy thể xác người tình Kaew, khiến anh đứng trước tình thế tiến thoái lưỡng nan.",
+      "Khuyencao": "T18 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+).",
+      "lichchieu": [
+        {
+          "ngay": "10/6/2024",
+          "gio": [
+            "8:00",
+            "14:00",
+            "18:00",
+            "23:15"
+          ]
+        }
+      ],
+      "id": "fbf6"
+    },
+    {
+      "Id": 3,
+      "img": "img\\movie\\0017561_0.webp",
+      "Ten": "ĐOÀN TÀU CÕI ÂM - T18",
+      "Theloai": "Kinh dị",
+      "Xuatxu": "Indonesia",
+      "ThoiLuong": "100 phút",
+      "Daodien": "Rizal Mantovani",
+      "Dienvien": "Hanna Malasan; Zara Leola; Putri Ayudya; Fadly Faisal; Kiki Narendra;...",
+      "Khoichieu": "10/05/2024",
+      "Trailer": "",
+      "Mota": "Từng toa tàu biến mất bí ẩn mỗi khi băng qua đường hầm cùng hàng loạt viễn cảnh ghê rợn và đẫm máu liên tiếp ập đến khiến hành khách phải đối diện với ranh giới sinh tử trước mắt.",
+      "Khuyencao": "T18 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+).",
+      "lichchieu": [
+        {
+          "ngay": "10/6/2024",
+          "gio": [
+            "9:00",
+            "11:00",
+            "14:00",
+            "18:00",
+            "20:00",
+            "23:15"
+          ]
+        }
+      ],
+      "id": "e357"
+    },
+    {
+      "Id": 4,
+      "img": "img\\movie\\0017580_0.webp",
+      "Ten": "BỘ QUẦN ÁO MỚI CỦA HOÀNG ĐẾ (Vở diễn)",
+      "Theloai": "Hài, Nhạc kịch, Thiếu nhi",
+      "Xuatxu": "Viet Nam",
+      "ThoiLuong": "70 phút",
+      "Daodien": "Hiroyuki Muneshige - Tác giả: Minh Nguyệt - Chỉ đạo nghệ thuật: NSND Xuân Bắc",
+      "Dienvien": "NSƯT Minh Hiếu, NS Hồng Quang, NS Tô Dũng, NS Ngô Thuận, NS Hồ Liên,",
+      "Khoichieu": "24/05/2024",
+      "Trailer": "",
+      "Mota": "“BỘ QUẦN ÁO MỚI CỦA HOÀNG ĐẾ” lấy nguyên tác từ truyện cổ tích cùng tên của nhà văn người Đan Mạch An-đéc-xen. Phiên bản “Sân khấu nghệ thuật” được dàn dựng chuyên nghiệp chắc chắn sẽ mang đến cho khán giả nhí cùng quý phụ huynh những trải nghiệm mới lạ.Vở diễn xoay quanh câu chuyện kể về vị hoàng đế thích chưng diện đến mức mỗi ngày ông có thể thay đến mấy bộ y phục khác nhau chỉ để được quần thần nịnh hót, khen ngợi. Thậm chí, ông còn nghe lời 2 kẻ lạ mặt, mặc lên mình chiếc áo choàng không hề tồn tại tham gia buổi diễu hành và trở thành trò cười trong mắt tất cả mọi người. Thông qua vở kịch “Bộ quần áo mới của Hoàng đế”, ekip Nhà hát Kịch Việt Nam đã lồng ghép những bài học ý nghĩa: Đừng quá quan trọng vẻ bề ngoài, hay những lời nịnh hót sáo rỗng. Quan tâm tới mọi người xung quanh và tự tin vào bản thân mới là điều giúp bạn nhận được sự yêu mến từ mọi người.",
+      "Khuyencao": "T13 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 13   TUỔI TRỞ LÊN (13+).",
+      "lichchieu": [
+        {
+          "ngay": "10/6/2024",
+          "gio": [
+            "9:00",
+            "11:00",
+            "14:00",
+            "18:00",
+            "20:00",
+            "23:15"
+          ]
+        }
+      ],
+      "id": "1801"
+    }
+  ],
+  "user": [
+    {
+      "ID": "1",
+      "Ten": "Khai",
+      "Gmail": "khai5108@gmail.com",
+      "Mk": "123456",
+      "id": "05dc"
+    },
+    {
+      "ID": "2",
+      "Ten": "Huy",
+      "Gmail": "huy@gmail.com",
+      "Mk": "123456",
+      "id": "2e55"
+    },
+    {
+      "ID": "3",
+      "Ten": "Quang",
+      "Gmail": "khai5208@gmail.com",
+      "Mk": "123456",
+      "id": "de67"
+    },
+    {
+      "id": "c612",
+      "Ten": "Hieu",
+      "Gmail": "hieu120@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "93ed",
+      "Ten": "Hieu",
+      "Gmail": "hieu520@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "1875",
+      "Ten": "Hieu",
+      "Gmail": "hieu523@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "3b8f",
+      "Ten": "Hieu",
+      "Gmail": "hieu5223@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "b718",
+      "Ten": "1",
+      "Gmail": "hieu5220@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "0410",
+      "Ten": "Hieu",
+      "Gmail": "hieu52202@gmail.com",
+      "Mk": "3333"
+    },
+    {
+      "id": "356b",
+      "Ten": "Quang",
+      "Gmail": "quang123@gmail.com",
+      "Mk": "12345"
+    },
+    {
+      "id": "b87f",
+      "Ten": "Quang",
+      "Gmail": "hieu522223@gmail.com",
+      "Mk": "12345"
+    },
+    {
+      "id": "7b9c",
+      "Ten": "Quang",
+      "Gmail": "quang1234@gmail.com",
+      "Mk": "123456"
+    },
+    {
+      "id": "1abb",
+      "Ten": "Tien",
+      "Gmail": "tien112@gmail.com",
+      "Mk": "123456"
+    },
+    {
+      "id": "216f",
+      "Ten": "Tien",
+      "Gmail": "tien113@gmail.com",
+      "Mk": "123456"
+    },
+    {
+      "id": "f3c5",
+      "Ten": "tuan",
+      "Gmail": "tuan520@gmail.com",
+      "Mk": "111111"
+    },
+    {
+      "id": "9143",
+      "Ten": "Thinh",
+      "Gmail": "thinh111@gmail.com",
+      "Mk": "123456"
+    },
+    {
+      "id": "b75e",
+      "Ten": "Q",
+      "Gmail": "q123@gmail.com",
+      "Mk": "1234"
+    },
+    {
+      "id": "fca3",
+      "Ten": "Q",
+      "Gmail": "q123@gmail.com",
+      "Mk": "1234"
+    },
+    {
+      "id": "33ed",
+      "Ten": "1",
+      "Gmail": "1@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "eaa6",
+      "Ten": "Hieu",
+      "Gmail": "hieu1202@gmail.com",
+      "Mk": "1111"
+    },
+    {
+      "id": "eca3",
+      "Ten": "22",
+      "Gmail": "22@gmail.com",
+      "Mk": "1111"
+    },
+    {
+      "id": "af40",
+      "Ten": "1",
+      "Gmail": "11@gmail.com",
+      "Mk": "1111"
+    },
+    {
+      "id": "c94d",
+      "Ten": "111",
+      "Gmail": "111@gmail.com",
+      "Mk": "123"
+    },
+    {
+      "id": "df1c",
+      "Ten": "123",
+      "Gmail": "123@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "8979",
+      "Ten": "1",
+      "Gmail": "hieu123@gmail.com",
+      "Mk": "111111"
+    },
+    {
+      "id": "8e3d",
+      "Ten": "111",
+      "Gmail": "hieu1202111@gmail.com",
+      "Mk": "1111"
+    },
+    {
+      "id": "a30f",
+      "Ten": "11",
+      "Gmail": "223@gmail.com",
+      "Mk": "1111"
+    },
+    {
+      "id": "07a6",
+      "Ten": "1",
+      "Gmail": "hieu52011@gmail.com",
+      "Mk": "11111"
+    },
+    {
+      "id": "36e2",
+      "Ten": "Hieu",
+      "Gmail": "224@gmail.com",
+      "Mk": "111111"
+    }
+  ],
+  "sapchieu": [
+    {
+      "Id": 1,
+      "img": "img\\movie\\0017579_0.webp",
+      "Ten": "BIỆT ĐỘI SIÊU ANH HÙNG (Vở diễn)",
+      "Theloai": "Hài, Kịch, Thiếu nhi",
+      "Xuatxu": "Viet Nam",
+      "ThoiLuong": "70 phút",
+      "Daodien": "NSND Xuân Bắc",
+      "Dienvien": "NSND Xuân Bắc,NSND Tự Long Cùng các nghệ sỹ của Nhà hát Kịch Việt Nam",
+      "Khoichieu": "26/05/2024",
+      "Trailer": "",
+      "Mota": "“Thế giới đang yên bình, các bạn thiếu nhi đang ca hát chào đón mùa hè mới, bỗng nhiên thế lực đen tối xuất hiện hòng phá vỡ sự yên bình hạnh phúc. Lúc này, sự xuất hiện của những siêu anh hùng và các bạn nhỏ là những siêu chiến binh đã cùng nhau kịp thời giải cứu Trái Đất” \"BIỆT ĐỘI SIÊU ANH HÙNG\" – “Siêu phẩm” sân khấu vui “hết nấc” được lấy cảm hứng bởi loạt phim \"Avengers”. Hãy để con trẻ có trải nghiệm thưởng thức lành mạnh, giải trí đúng tuổi, rời xa màn hình điện thoại máy tính... và là cơ hội GẮN KẾT CẢ GIA ĐÌNH, giao lưu với các diễn viên, giúp các bạn nhỏ đến gần với nghệ thuật sân khấu với sự chuyển động liên tục của không gian, ánh sáng, âm thanh - yếu tố được khoa học chứng minh là giúp kích thích trí tuệ và sự sáng tạo.",
+      "Khuyencao": "T16 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 16 TUỔI TRỞ LÊN (16+).",
+      "id": "88ab"
+    },
+    {
+      "Id": 2,
+      "img": "img\\movie\\0017591_0.webp",
+      "Ten": "LUYỆN NGẢI: CÔ HỒN DÃ QUỶ-T18",
+      "Theloai": "",
+      "Xuatxu": "Thái Lan",
+      "ThoiLuong": "103 phút",
+      "Daodien": "Mate Yimsomboon",
+      "Dienvien": "Punjan Prama, Supawadee Kitisopakul",
+      "Khoichieu": " 17/05/2024",
+      "Trailer": "https://www.youtube.com/embed/Oz-MCOD8UNA",
+      "Mota": "Trong một lần trấn yểm ác linh quỷ quyệt, thầy phù thuỷ Kaew đã chiến thắng. Nhưng ngạ quỷ nhanh chóng thoát khỏi phong ấn, ám lấy thể xác người tình Kaew, khiến anh đứng trước tình thế tiến thoái lưỡng nan.",
+      "Khuyencao": "T18 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+).",
+      "id": "2515"
+    },
+    {
+      "Id": 3,
+      "img": "img\\movie\\0017561_0.webp",
+      "Ten": "ĐOÀN TÀU CÕI ÂM - T18",
+      "Theloai": "Kinh dị",
+      "Xuatxu": "Indonesia",
+      "ThoiLuong": "100 phút",
+      "Daodien": "Rizal Mantovani",
+      "Dienvien": "Hanna Malasan; Zara Leola; Putri Ayudya; Fadly Faisal; Kiki Narendra;...",
+      "Khoichieu": "10/05/2024",
+      "Trailer": "",
+      "Mota": "Từng toa tàu biến mất bí ẩn mỗi khi băng qua đường hầm cùng hàng loạt viễn cảnh ghê rợn và đẫm máu liên tiếp ập đến khiến hành khách phải đối diện với ranh giới sinh tử trước mắt.",
+      "Khuyencao": "T18 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+).",
+      "id": "9a9c"
+    },
+    {
+      "Id": 4,
+      "img": "img\\movie\\0017580_0.webp",
+      "Ten": "BỘ QUẦN ÁO MỚI CỦA HOÀNG ĐẾ (Vở diễn)",
+      "Theloai": "Hài, Nhạc kịch, Thiếu nhi",
+      "Xuatxu": "Viet Nam",
+      "ThoiLuong": "70 phút",
+      "Daodien": "Hiroyuki Muneshige - Tác giả: Minh Nguyệt - Chỉ đạo nghệ thuật: NSND Xuân Bắc",
+      "Dienvien": "NSƯT Minh Hiếu, NS Hồng Quang, NS Tô Dũng, NS Ngô Thuận, NS Hồ Liên,",
+      "Khoichieu": "24/05/2024",
+      "Trailer": "",
+      "Mota": "“BỘ QUẦN ÁO MỚI CỦA HOÀNG ĐẾ” lấy nguyên tác từ truyện cổ tích cùng tên của nhà văn người Đan Mạch An-đéc-xen. Phiên bản “Sân khấu nghệ thuật” được dàn dựng chuyên nghiệp chắc chắn sẽ mang đến cho khán giả nhí cùng quý phụ huynh những trải nghiệm mới lạ.Vở diễn xoay quanh câu chuyện kể về vị hoàng đế thích chưng diện đến mức mỗi ngày ông có thể thay đến mấy bộ y phục khác nhau chỉ để được quần thần nịnh hót, khen ngợi. Thậm chí, ông còn nghe lời 2 kẻ lạ mặt, mặc lên mình chiếc áo choàng không hề tồn tại tham gia buổi diễu hành và trở thành trò cười trong mắt tất cả mọi người. Thông qua vở kịch “Bộ quần áo mới của Hoàng đế”, ekip Nhà hát Kịch Việt Nam đã lồng ghép những bài học ý nghĩa: Đừng quá quan trọng vẻ bề ngoài, hay những lời nịnh hót sáo rỗng. Quan tâm tới mọi người xung quanh và tự tin vào bản thân mới là điều giúp bạn nhận được sự yêu mến từ mọi người.",
+      "Khuyencao": "T13 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 13   TUỔI TRỞ LÊN (13+).",
+      "id": "7db2"
+    }
+  ]
+}
